@@ -1,0 +1,32 @@
+.div-pad {
+    padding: 30px;
+}
+
+.line-head {
+    text-align: center;
+}
+
+.logo-left {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.logo-right {
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+.line-date {
+    padding-top: 30px;
+    padding-left: 200px;
+    /* text-align: center; */
+    font-size: 25px;
+}
+
+.speak {
+    float: left;
+    width: 180px;
+    height: 180px;
+}
