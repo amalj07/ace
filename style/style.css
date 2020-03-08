@@ -5,6 +5,10 @@
     text-align: justify;
 }
 
+.heading {
+    padding-top: 40px;
+}
+
 .line-head {
     text-align: center;
 }
