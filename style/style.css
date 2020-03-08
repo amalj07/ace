@@ -107,8 +107,13 @@ ul {
     padding: 20px;
 }
 
-.sponsor-img {
-    padding-left: 70px;
+.img-container {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.sp-img {
+    display: inline-block;
 }
 
 .map {
