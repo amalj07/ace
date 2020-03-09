@@ -145,7 +145,7 @@ h1 {
 h4 {
     text-align: center;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 .reg-dtl {
@@ -195,7 +195,11 @@ ul {
     position: relative;
 }
 
-.contact-dtl1 {
+/* .contact-dtl1 {}
+
+.contact-dtl1:hover {} */
+
+.contact-dtl2 {
     text-align: center;
     padding-top: 40px;
 }
@@ -214,11 +218,20 @@ ul {
 
 .img-container {
     text-align: center;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .sp-img {
     display: inline-block;
+    height: 83px;
+    padding-right: 25px;
+    padding-left: 25px;
+    transition: transform 0.6s;
+}
+
+.sp-img:hover {
+    transform: scale(1.5);
 }
 
 .map {
@@ -232,6 +245,9 @@ ul {
 }
 
 footer {
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #ffffff;
     text-align: center;
+    background-color: #404040;
 }
