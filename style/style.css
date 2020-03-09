@@ -83,6 +83,28 @@
     text-align: center;
 }
 
+.ace-list-ul {
+    list-style: none;
+}
+
+.ace-list-ul .ace-list-li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.ace-list-ul .ace-list-li::before {
+    content: '';
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    background-image: url(/images/ace-featured.jpg);
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .sub-heading {
     padding-top: 15px;
     font-size: 30px;
