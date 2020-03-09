@@ -1,7 +1,7 @@
 .nav-logo {
-    width: 40px;
-    height: 40px;
-    margin-left: 15px;
+    width: 250px;
+    height: 60px;
+    margin-left: 10px;
 }
 
 .nav1 {
@@ -13,19 +13,39 @@
 
 .nav2 {
     float: right;
-    padding-top: 10px;
+    padding-top: 15px;
     color: #404040;
 }
 
 .nav-item1 {
-    display: inline;
+    display: inline-block;
     text-decoration: none !important;
-    color: gray;
+    color: #646464;
     padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
 }
 
 .nav-item1:hover {
-    color: black;
+    color: #040404;
+    transition: 0.5s;
+}
+
+.nav-item1:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-item1:hover:after {
+    width: 100%;
+    left: 0;
 }
 
 .div1 {
