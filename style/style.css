@@ -118,13 +118,12 @@
 .speaker {
     padding: 20px;
     transition: transform 0.6s;
+    border-radius: 20px;
 }
 
 .speaker:hover {
     transition: 0.5s;
-    color: #252525;
     background-color: #ccc5c5;
-    /* zoom: 1.1; */
     transform: scale(1.05);
 }
 
@@ -220,21 +219,20 @@ ul {
     height: 180px;
 }
 
-.about {
-    padding: 20px;
-}
-
 .contact-dtl {
     text-align: center;
     display: block;
     position: relative;
 }
 
-/* .contact-dtl1 {}
+.cont-dtl {
+    font-size: 20px;
+}
 
-.contact-dtl1:hover {} */
+
 
 .contact-dtl2 {
+    font-size: 25px;
     text-align: center;
     padding-top: 40px;
 }
