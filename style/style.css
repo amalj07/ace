@@ -138,6 +138,29 @@ ul {
     padding: 20px;
 }
 
+.contact-dtl {
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.contact-dtl1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.name {
+    position: absolute;
+    text-align: justify;
+    display: inline-block;
+}
+
+.num {
+    position: relative;
+    text-align: justify;
+    display: inline-block;
+}
+
 .img-container {
     text-align: center;
     padding-bottom: 40px;
