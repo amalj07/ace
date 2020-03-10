@@ -48,6 +48,23 @@
     left: 0;
 }
 
+.carousel-inner {
+    position: relative;
+}
+
+.cr-border {
+    margin-top: 70px;
+    position: absolute;
+    z-index: 1;
+    height: 600px;
+}
+
+.cr-img {
+    margin-top: 70px;
+    z-index: 2;
+    height: 600px;
+}
+
 .div1 {
     padding-left: 60px;
     padding-right: 60px;
