@@ -68,7 +68,7 @@
 .div1 {
     padding-left: 60px;
     padding-right: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-align: justify;
 }
 
@@ -95,7 +95,6 @@
 
 .line-date {
     padding-top: 30px;
-    padding-left: 200px;
     font-size: 25px;
     text-align: center;
 }
@@ -123,7 +122,6 @@
 }
 
 .sub-heading {
-    padding-top: 15px;
     font-size: 30px;
     text-align: center;
 }
@@ -269,14 +267,16 @@ ul {
 .img-container {
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .sp-img {
     display: inline-block;
-    height: 83px;
+    zoom: 1.4;
     padding-right: 25px;
     padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     transition: transform 0.6s;
 }
 
@@ -284,9 +284,13 @@ ul {
     transform: scale(1.5);
 }
 
+.map-head {
+    padding-bottom: 50px;
+}
+
 .map {
     float: left;
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 .addr {
