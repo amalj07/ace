@@ -149,7 +149,7 @@
 
     <!-- Page heading start -->
     <div class="heading div1">
-        <img class="logo-left" src="/images/ace-logo.png" alt="ace-logo" href="#">
+        <img class="logo-left" src="/images/ace-featured.jpg" alt="ace-logo" href="#">
         <a href="https://www.ajce.in"><img class="logo-right" src="/images/ajce-emblem.png" alt="ajce logo"></a>
         <h1 class="line-head">ACE 2020</h1>
         <h3 class="line-head">National Conference on Advances in Civil Engineering</h3>
@@ -321,7 +321,9 @@
             <div class="row">
                 <div class="col">
                     <h4>ACE 2020</h4>
-                    <a href=""><button class="online-btn">ACE 2020</button></a><br><br>
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScXBmWjO-uqodpcbqus2OsPmca_0EHel_ztiP5CJUNXxOzXDA/viewform?usp=sf_link"><button
+                            class="online-btn">ACE 2020</button></a><br><br>
                     <a href=""><button class="online-btn">eBrochure</button></a><br><br>
                     <a href=""><button class="online-btn">Full Paper Format</button></a><br><br>
                     <a href=""><button class="online-btn">Poster</button></a><br><br>
@@ -504,6 +506,10 @@
         </div>
     </div>
 
+    <!-- Back To Top Button -->
+    <!-- <button onclick="topFunction()" id="backtotopbtn">&#10148;</button> -->
+    <button onclick="topFunction()" id="backtotopbtn">&cuwed;</button>
+
     <footer>
         <p class="footer">&copy;All Rights Reserved. Amal Jyothi College of Engineering</p>
     </footer>
@@ -519,9 +525,27 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script>
+        //Move page down fromnavbar
         var shiftWindow = function () { scrollBy(0, -90) };
         if (location.hash) shiftWindow();
         window.addEventListener("hashchange", shiftWindow);
+
+
+        //Back to top
+        mybutton = document.getElementById("backtotopbtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
     </script>
 </body>
 
