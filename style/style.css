@@ -75,6 +75,7 @@ body {
 }
 
 .div1 {
+    padding-top: 30px;
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 30px;
@@ -147,8 +148,8 @@ body {
 
 .speaker:hover {
     transition: 0.5s;
-    background-color: #ccc5c5;
-    transform: scale(1.05);
+    background-color: #ececec;
+    transform: scale(1.1);
 }
 
 .speaker-nm {
@@ -166,7 +167,7 @@ body {
 .online-btn {
     width: 270px;
     border: none;
-    background: #404040;
+    background: #807e7e;
     color: #ffffff !important;
     font-weight: 100;
     padding: 20px;
@@ -186,7 +187,7 @@ body {
 }
 
 .online-btn:hover {
-    color: #404040 !important;
+    color: #6e6d6d !important;
     font-weight: 700 !important;
     letter-spacing: 3px;
     background: none;
@@ -202,19 +203,16 @@ h1 {
 
 h4 {
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .reg-dtl {
     text-align: center;
     font-size: 20px;
     padding-bottom: 30px;
-    /* display: block; */
 }
 
 .reg-dtl1 {
-    /* display: inline; */
     font-family: "source_sans_proregular";
 }
 
@@ -317,5 +315,5 @@ footer {
     padding-bottom: 10px;
     color: #ffffff;
     text-align: center;
-    background-color: #404040;
+    background-color: #7a7979;
 }
