@@ -3,10 +3,6 @@ body {
     font-size: 17px;
 }
 
-/* pre {
-    font-family: "source_sans_proregular" !important;
-} */
-
 .nav-logo {
     width: 250px;
     height: 60px;
@@ -163,6 +159,14 @@ body {
     padding-right: 10px;
 }
 
+pre {
+    font-family: "source_sans_proregular";
+}
+
+.imp-dt {
+    font-size: 17px;
+}
+
 
 .online-btn {
     width: 270px;
@@ -226,6 +230,32 @@ ul {
     text-align: center;
 }
 
+.bank {
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: antiquewhite;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+}
+
+.sub-list-ul {
+    list-style: none;
+}
+
+.sub-list-li::before {
+    content: '\27BA';
+    color: #807e7e;
+    position: relative;
+    top: 2px;
+    font-size: 25px;
+}
+
 
 .logo-left2 {
     float: left;
@@ -251,8 +281,6 @@ ul {
 .cont-dtl {
     font-size: 20px;
 }
-
-
 
 .contact-dtl2 {
     font-size: 25px;
@@ -304,20 +332,6 @@ ul {
 .addr {
     padding-top: 270px;
     padding-left: 100px;
-}
-
-.bank {
-    margin: auto;
-    padding-top: 10px;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 16px;
-    width: 600px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: antiquewhite;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
 }
 
 #backtotopbtn {
