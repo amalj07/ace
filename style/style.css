@@ -1,3 +1,12 @@
+body {
+    font-family: "source_sans_proregular";
+    font-size: 17px;
+}
+
+/* pre {
+    font-family: "source_sans_proregular" !important;
+} */
+
 .nav-logo {
     width: 250px;
     height: 60px;
@@ -201,8 +210,13 @@ h4 {
     text-align: center;
     font-size: 20px;
     padding-bottom: 30px;
+    /* display: block; */
 }
 
+.reg-dtl1 {
+    /* display: inline; */
+    font-family: "source_sans_proregular";
+}
 
 ul {
     padding-top: 10px;
