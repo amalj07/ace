@@ -494,7 +494,6 @@
     </div>
 
     <!-- Back To Top Button -->
-    <!-- <button onclick="topFunction()" id="backtotopbtn">&#10148;</button> -->
     <button onclick="topFunction()" id="backtotopbtn">&cuwed;</button>
 
     <footer>
@@ -511,27 +510,27 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script type="text/javascript">
         //Move page down fromnavbar
         var shiftWindow = function () { scrollBy(0, -90) };
         if (location.hash) shiftWindow();
         window.addEventListener("hashchange", shiftWindow);
 
-
-        //Back to top
-        mybutton = document.getElementById("backtotopbtn");
-        window.onscroll = function () { scrollFunction() };
-        function scrollFunction() {
-            if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-        function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
+        //Animate Backtotop Button
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 650) {
+                    $('#backtotopbtn').fadeIn();
+                } else {
+                    $('#backtotopbtn').fadeOut();
+                }
+            });
+            $('#backtotopbtn').click(function () {
+                $('html,body').animate({ scrollTop: 0 }, 1000)
+            })
+        });
 
     </script>
 </body>
