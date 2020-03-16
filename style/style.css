@@ -6,7 +6,12 @@ body {
 .nav-logo {
     width: 180px;
     height: 70px;
-    margin-left: 10px;
+    margin-left: -20px;
+    margin-top: -9px;
+    margin-bottom: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffff;
 }
 
 .nav1 {
@@ -14,25 +19,28 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
+    background-color: #167499 !important;
 }
 
 .nav2 {
     float: right;
-    padding-top: 20px;
+    padding-top: 10px;
     color: #404040;
 }
 
 .nav-item1 {
     display: inline-block;
     text-decoration: none !important;
-    color: #646464;
+    /* color: #646464; */
+    color: #ffffff;
     padding-right: 10px;
     padding-left: 10px;
     position: relative;
 }
 
 .nav-item1:hover {
-    color: #040404;
+    /* color: #040404; */
+    color:  #ffffff;
     transition: 0.5s;
 }
 
@@ -44,6 +52,7 @@ body {
     left: 50%;
     position: absolute;
     background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
@@ -78,14 +87,35 @@ body {
     text-align: justify;
 }
 
-.heading {
-    padding-top: 40px;
+.head{
+    margin-top: 35px;
+}
+
+.h11{
+    font-size: 60px;
+}
+
+.h12{
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+.h13{
+    font-size: 30px;
+    margin-top: -20px;
 }
 
 .line-head {
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     color: #0f5e7d;
+    margin-bottom: 60px;
+}
+
+.date{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .logo-center{
@@ -94,6 +124,16 @@ body {
     display: block;
     width: 170px;
     height: 170px;
+}
+
+.logo-center1{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 550px;
+    height: 270px;
+    border-style: none none solid none;
+    border-width: thick;
 }
 
 .logo-left {
@@ -138,6 +178,10 @@ body {
     transform: translateY(-50%);
 }
 
+.heading {
+    padding-top: 40px;
+}
+
 .sub-heading {
     font-weight: 600;
     font-size: 30px;
@@ -146,7 +190,7 @@ body {
 }
 
 .sub-heading2 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .speaker {
@@ -393,5 +437,5 @@ footer {
     padding-bottom: 10px;
     color: #ffffff;
     text-align: center;
-    background-color: #7a7979;
+    background-color: #167499;
 }
