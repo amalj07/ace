@@ -83,7 +83,9 @@ body {
 }
 
 .line-head {
+    font-family: "bree_serifregular";
     text-align: center;
+    color: #0f5e7d;
 }
 
 
@@ -107,6 +109,8 @@ body {
 
 .ace-list-ul {
     list-style: none;
+    color: #0f5e7d;
+    font-weight: 600;
 }
 
 .ace-list-ul .ace-list-li {
@@ -128,8 +132,10 @@ body {
 }
 
 .sub-heading {
+    font-family: "courgetteregular";
     font-size: 30px;
     text-align: center;
+    color: #0f5e7d;
 }
 
 .sub-heading2 {
@@ -150,6 +156,7 @@ body {
 
 .speaker-nm {
     text-align: left;
+    font-size: 30px;
 }
 
 .speaker-img {
