@@ -53,7 +53,7 @@ body {
     position: absolute;
     background: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.8s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
 
@@ -214,11 +214,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    /* float: left; */
     width: 180px;
     height: 180px;
-    /* padding-right: 10px; */
-    /* padding-bottom: 20px; */
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -234,6 +231,20 @@ pre {
 
 .imp-dt {
     font-size: 17px;
+}
+
+.imp_dates {
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    width: 560px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: antiquewhite;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
 }
 
 
