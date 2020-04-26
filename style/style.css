@@ -249,9 +249,9 @@ pre {
 
 
 .online-btn {
-    width: 270px;
+    width: 250px;
     border: none;
-    background: #807e7e;
+    background: #1a7ca3;
     color: #ffffff !important;
     font-weight: 100;
     padding: 20px;
@@ -271,7 +271,7 @@ pre {
 }
 
 .online-btn:hover {
-    color: #6e6d6d !important;
+    color: #0f5e7d !important;
     font-weight: 700 !important;
     letter-spacing: 3px;
     background: none;
