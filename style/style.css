@@ -240,7 +240,6 @@ pre {
     padding-top: 30px;
     padding-bottom: 16px;
     width: 560px;
-    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: antiquewhite;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -263,12 +262,9 @@ pre {
 
 .onl-btn-div {
     text-align: center;
+    margin-bottom: -15px;
 }
 
-.onl-btn-div1 {
-    text-align: center;
-    padding-top: 86px;
-}
 
 .online-btn:hover {
     color: #0f5e7d !important;
@@ -291,9 +287,17 @@ h4 {
 }
 
 .reg-dtl {
+    margin: auto;
+    width: 350px;
     text-align: center;
-    font-size: 20px;
-    padding-bottom: 30px;
+    font-size: 25px;
+    padding-top: 23px;
+    padding-bottom: 17px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: antiquewhite;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
 }
 
 .reg-dtl1 {
@@ -317,7 +321,6 @@ ul {
     padding-top: 30px;
     padding-bottom: 16px;
     width: 600px;
-    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: antiquewhite;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
