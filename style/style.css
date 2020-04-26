@@ -437,7 +437,7 @@ ul {
     right: 30px;
     z-index: 99;
     border: none;
-    background-color: #807e7e;
+    background-color: #0f5e7d;
     color: #ffffff;
     cursor: pointer;
     padding-left: 12px;
@@ -452,7 +452,7 @@ ul {
 
 #backtotopbtn:hover {
     background-color: #ffffff;
-    color: #807e7e;
+    color: #0f5e7d;
     box-shadow: antiquewhite;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
