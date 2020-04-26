@@ -154,6 +154,12 @@ body {
     text-align: center;
 }
 
+.marquee-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
 .ace-list-ul {
     list-style: none;
     color: #0f5e7d;
