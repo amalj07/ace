@@ -246,6 +246,14 @@ pre {
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
 }
 
+.reg-btn-head {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    color: #0f5e7d;
+}
+
+
 
 .online-btn {
     width: 250px;
@@ -310,13 +318,12 @@ ul {
 
 .bank-heading {
     font-size: 25px;
+    margin-top: 40px;
     padding-left: 20px;
-    text-align: center;
 }
 
 .bank {
     margin: auto;
-    padding-top: 10px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 16px;
