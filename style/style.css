@@ -2,49 +2,19 @@ body {
     font-family: "source_sans_proregular";
     font-size: 18px;
 }
-
-.nav-logo {
-    width: 180px;
-    height: 70px;
-    margin-left: -20px;
-    margin-top: -10px;
-    margin-bottom: -10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #ffffff;
-}
-
-.nav1 {
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    background-color: #167499 !important;
-}
-
-.nav2 {
-    float: right;
-    padding-top: 10px;
-    color: #404040;
-}
-
-.nav-item1 {
-    display: inline-block;
-    text-decoration: none !important;
-    /* color: #646464; */
-    color: #ffffff;
-    padding-right: 10px;
-    padding-left: 10px;
+.nav-item {
     position: relative;
 }
+nav .navbar-nav li a{
+    color: white !important;
+}
 
-.nav-item1:hover {
-    /* color: #040404; */
+nav .navbar-nav li a:hover {
     color:  #ffffff;
     transition: 0.5s;
 }
 
-.nav-item1:after {
+nav .navbar-nav li a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -57,24 +27,84 @@ body {
     width: 0;
 }
 
-.nav-item1:hover:after {
+nav .navbar-nav li a:hover:after {
     width: 100%;
     left: 0;
 }
+
+
+.nav-logo {
+    width: 180px;
+    height: 70px;
+    margin-left: -20px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffff;
+}
+
+/* .nav1 {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: #167499 !important;
+} */
+
+/* .nav2 {
+    float: right;
+    padding-top: 10px;
+    color: #404040;
+} */
+
+/* .nav-item1 {
+    display: inline-block;
+    text-decoration: none !important;
+    color: #646464;
+    color: #ffffff;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+} */
+
+/* .nav-item1:hover {
+    color: #040404;
+    color:  #ffffff;
+    transition: 0.5s;
+} */
+
+/* .nav-item1:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    transition: width 0.8s ease 0s, left 0.3s ease 0s;
+    width: 0;
+} */
+
+/* .nav-item1:hover:after {
+    width: 100%;
+    left: 0;
+} */
 
 .carousel-inner {
     position: relative;
 }
 
 .cr-border {
-    margin-top: 70px;
+    /* margin-top: 70px; */
     position: absolute;
     z-index: 1;
     height: 600px;
 }
 
 .cr-img {
-    margin-top: 70px;
+    /* margin-top: 70px; */
     z-index: 2;
     height: 600px;
 }
